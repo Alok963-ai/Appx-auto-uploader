@@ -4,11 +4,11 @@ import os
 
 class Config(object):
     BOT_TOKEN = ""
-    DB_NAME = ""
-    API_ID = 
-    API_HASH = ""
-    ADMIN_ID = 
-    DB_URL = ""
-    LOG_CHANNEL =  # Your Log Channel ID (Bot ko ADMIN BNAYE)
-    USERLINK = ""
+    DB_NAME = "MONGO_DB"
+    API_ID = 20288951
+    API_HASH = "e8cb5fb7a475b5f5eb3b0ef0e6ca03a8"
+    ADMIN_ID = 7833842279
+    DB_URL = "mongodb+srv://alokjangde6:1q9XguXoXiV6HMog@cluster0.cx60pkr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    LOG_CHANNEL = 2548493129 # Your Log Channel ID (Bot ko ADMIN BNAYE)
+    USERLINK = "t.me/Alliswell71"
     TUTORIAL_VIDEO = ""
