@@ -4,7 +4,7 @@ import os
 
 class Config(object):
     BOT_TOKEN = ""
-    DB_NAME = ""
+    DB_NAME = "alokjangde6"
     API_ID = 20288951
     API_HASH = "e8cb5fb7a475b5f5eb3b0ef0e6ca03a8"
     ADMIN_ID = 7833842279
