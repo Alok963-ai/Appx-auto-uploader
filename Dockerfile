@@ -15,5 +15,7 @@ RUN mv appxdl /usr/local/bin/appxdl
 RUN chmod +x /usr/local/bin/appxdl
 RUN python3 -m venv /venv && \
     /venv/bin/pip install -r master.txt
+RUN python3 -m venv /venv && \
+    /venv/bin/pip install -r requirements.txt
 ENV PATH="/usr/local/bin:/venv/bin:$PATH"
 CMD ["python3", "main.py"]
